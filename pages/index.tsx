@@ -1,6 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
-import BookingContainer from './../components/BookingContainer';
+import BookingContainer from '../components/Booking/BookingContainer';
 
 const Home: NextPage = () => {
   return (
@@ -9,7 +9,6 @@ const Home: NextPage = () => {
         <title>MeetoSPace</title>
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="meeto space booking page" />
-
       </Head>
       <BookingContainer />
     </div>

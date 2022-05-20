@@ -1,7 +1,7 @@
 import React from 'react'
 
 function InputArea({ ...props }) {
-  const style = `items-cente ml-2 mt-3 flex ${props.width} rounded-md border-[1px] border-black bg-gray-100 p-2`
+  const style = `items-cente ml-2 mt-3 flex ${props.width} rounded-md border-[1px] border-[#80808070] bg-gray-100 p-2`
   const checkrequired = props.required ? (
     <div className={style}>
       {props.icon}
