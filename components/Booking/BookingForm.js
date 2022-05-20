@@ -9,9 +9,10 @@ import {
 import InputArea from './InputArea'
 import WhatyouNeed from './WhatyouNeed'
 import ButtonComponent from './ButtonComponent'
+import PriceCard from './PriceCard'
 function BookingForm() {
   return (
-    <div className="w-[65%]">
+    <div className="w-[90%] md:w-[65%]">
       <form>
         <h2 className="text-xl font-bold text-black">
           Let us Know Who You are?
@@ -33,16 +34,16 @@ function BookingForm() {
         <p className="ml-2 mb-4 mt-1 text-sm text-gray-800">
           We will send confirmation to this email adress
         </p>
-        <div className="flex">
+        <div className="flex flex-col md:flex-row">
           <InputArea
-            width="w-[50%]"
+            width="w-full md:w-[50%]"
             type="tel"
             placeholder="Enter Your Phone Number (optional)"
             icon={<PhoneIcon className="h-6 text-gray-600" />}
             required={false}
           />
           <InputArea
-            width="w-[50%]"
+            width="w-full md:w-[50%]"
             type="tel"
             placeholder="please select your country"
             icon={<GlobeAltIcon className="h-6 text-gray-600" />}
@@ -60,7 +61,10 @@ function BookingForm() {
         <div class="py-4">
           <div class="w-full border-t border-gray-300"></div>
         </div>
-        <div className="mt-3 flex items-center justify-between">
+        <div className="block md:hidden">
+          <PriceCard />
+        </div>
+        <div className="flex-start mt-3 flex flex-col gap-2 md:flex-row md:items-center md:justify-between md:gap-2 md:pb-10">
           <div className=" ml-3">
             <input type="checkbox" className="h-4 w-4" />
             <label className="ml-3 text-xl text-gray-500">

@@ -7,7 +7,7 @@ function PriceCard() {
       <div className="absolute  mt-5 h-[450px] w-auto rounded-[10px] border-[1px] border-[#80808070] shadow-md  ">
         <div className=" flex items-center gap-3 rounded-t-[10px] bg-blue-50 px-5 py-3">
           <img src="sandClock.svg " className="h-4 w-auto" alt="holding" />
-          <p>Holding Pricing (2:03 ) </p>
+          <p className="whitespace-nowrap">Holding Pricing (2:03 ) </p>
           <ButtonComponent name="Reset" />
         </div>
         <h3 className="p-5 font-bold  text-black"> Your Booking </h3>

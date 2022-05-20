@@ -4,7 +4,7 @@ import BookingContainer from '../components/Booking/BookingContainer';
 
 const Home: NextPage = () => {
   return (
-    <div className="flex  flex-col ml-20  py-2">
+    <div className="flex  flex-col ml-10  lg:ml-20  py-2">
       <Head>
         <title>MeetoSPace</title>
         <link rel="icon" href="/favicon.ico" />

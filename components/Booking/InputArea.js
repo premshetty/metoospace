@@ -6,7 +6,7 @@ function InputArea({ ...props }) {
     <div className={style}>
       {props.icon}
       <input
-        className="ml-2 hidden w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+        className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
         type={`${props.type}`}
         placeholder={`${props.placeholder}`}
         required
@@ -16,7 +16,7 @@ function InputArea({ ...props }) {
     <div className={style}>
       {props.icon}
       <input
-        className="ml-2 hidden w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+        className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
         type={`${props.type}`}
         placeholder={`${props.placeholder}`}
       />
