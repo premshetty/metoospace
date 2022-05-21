@@ -56,22 +56,6 @@ function InputCointainer() {
           </label>
         </div>
         <WhatyouNeed />
-        <div class="py-4">
-          <div class="w-full border-t border-gray-300"></div>
-        </div>
-        <div className="block md:hidden"></div>
-        <div className="flex-start mt-3 flex flex-col gap-2 md:flex-row md:items-center md:justify-between md:gap-2 md:pb-10">
-          <div className=" ml-3">
-            <input type="checkbox" className="h-4 w-4" />
-            <label className="ml-3 text-xl text-gray-500">
-              I've read & accept the
-              <a href="#" className="text-black">
-                &nbsp; Terms and condition
-              </a>
-            </label>
-          </div>
-          <ButtonComponent name="Final step" />
-        </div>
       </form>
     </div>
   )
