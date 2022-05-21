@@ -1,7 +1,7 @@
 import React from 'react'
 import BookingForm from './BookingForm'
 import PriceCard from './PriceCard'
-import Navbar from './../Navbar'
+import Navbar from './Navbar'
 
 function BookingContainer() {
   return (

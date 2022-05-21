@@ -1,5 +1,5 @@
 import React from 'react'
-import Stepper from './Booking/Stepper'
+import Stepper from './Stepper'
 
 function Navbar() {
   return (
