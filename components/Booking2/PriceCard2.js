@@ -3,10 +3,12 @@ import ButtonComponent from '../Booking/ButtonComponent'
 
 function PriceCard2() {
   return (
-    <div className="mt-10 h-[450px] w-full rounded-md border-[1px] border-[#80808070] shadow-md ">
-      <div className=" flex w-full  flex-wrap items-center justify-between rounded-t-[10px] bg-blue-50 px-2 py-3">
-        <img src="sandClock.svg " className="h-4 w-auto" alt="holding" />
-        <p className="whitespace-nowrap">Holding Pricing (2:03 ) </p>
+    <div className="mt-10 h-[460px]  w-full rounded-md border-[1px] border-[#80808070] shadow-md ">
+      <div className=" grid w-full grid-cols-1 flex-wrap content-center gap-5  rounded-t-[10px]  bg-blue-50 px-2 py-3 md:flex md:justify-between">
+        <div className="flex items-center">
+          <img src="sandClock.svg " className="h-4 w-auto" alt="holding" />
+          <p className="whitespace-nowrap">Holding Pricing (2:03 ) </p>
+        </div>
         <ButtonComponent name="Reset" />
       </div>
       <h3 className="p-5 font-bold  text-black"> Your Booking </h3>
@@ -38,7 +40,7 @@ function PriceCard2() {
           <p className="text-sm  font-bold text-[#000000c2]">Price</p>
           <p className="text-sm  font-bold text-[#000000c2]">$131.00</p>
         </div>
-        <div className=" flex w-[300px] items-center justify-between  px-5">
+        <div className=" flex w-[300px] items-center justify-between px-5 ">
           <p className="text-sm   text-[#000000c2]">
             Not included in price (collected by the property) : Tourism Fee (pay
             at the property) AED:20.00
