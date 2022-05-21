@@ -59,7 +59,7 @@ function InputCointainer() {
           </label>
         </div>
         {guest == true ? (
-          <div className="mt-5  h-auto w-full rounded-[17px] border-[1px] border-[#80808070] bg-blue-50 py-8 px-5 shadow-md">
+          <div className="mt-5  h-auto w-full rounded-[17px] border-[1px] border-[#80808070]  py-8 px-5 shadow-md">
             <InputArea
               width="w-full md:w-[50%]"
               type="text"
