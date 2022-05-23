@@ -8,8 +8,8 @@ function Bcontainer() {
     <div className=" bg- w-full 2xl:max-w-7xl ">
       <Navbar2 />
       <BookingForm2 />
-      <div class="py-4">
-        <div class="w-full border-t border-gray-300"></div>
+      <div className="py-4">
+        <div className="w-full border-t border-gray-300"></div>
       </div>
       <div className="m-auto flex items-center gap-20 px-3 pb-10 md:w-[90%] md:px-0">
         <div className="ml-3">

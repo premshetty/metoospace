@@ -58,8 +58,8 @@ function BookingForm() {
           </label>
         </div>
         <WhatyouNeed />
-        <div class="py-4">
-          <div class="w-full border-t border-gray-300"></div>
+        <div className="py-4">
+          <div className="w-full border-t border-gray-300"></div>
         </div>
         <div className="block md:hidden">
           <PriceCard />

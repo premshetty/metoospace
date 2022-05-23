@@ -3,7 +3,9 @@ import React from 'react'
 function Navbar2() {
   return (
     <div className="flex w-full items-center justify-between px-10 py-3 shadow-md">
-      <h1 className=" text-2xl font-bold text-black"> meetoospace</h1>
+      <h1 className=" text-2xl font-bold text-black">
+        <a href="/">meetoospace</a>{' '}
+      </h1>
       <img
         src="stepper.svg"
         alt="stepper"

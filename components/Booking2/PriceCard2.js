@@ -33,8 +33,8 @@ function PriceCard2() {
             Free
           </p>
         </div>
-        <div class="py-4 px-5">
-          <div class="w-full border-t border-gray-300 "></div>
+        <div className="py-4 px-5">
+          <div className="w-full border-t border-gray-300 "></div>
         </div>
         <div className=" flex items-center justify-between  px-5">
           <p className="text-sm  font-bold text-[#000000c2]">Price</p>
