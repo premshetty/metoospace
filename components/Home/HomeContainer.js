@@ -2,6 +2,8 @@ import React from 'react'
 import AboveNavbar from './AboveNavbar'
 import Navbar from './Navbar'
 import Hero from './Hero'
+import Explore from './Explore'
+import BigCard from './BigCard'
 
 function HomeContainer() {
   return (
@@ -9,6 +11,8 @@ function HomeContainer() {
       <AboveNavbar />
       <Navbar />
       <Hero />
+      <Explore />
+      <BigCard />
     </div>
   )
 }
