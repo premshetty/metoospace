@@ -4,6 +4,8 @@ import Navbar from './Navbar'
 import Hero from './Hero'
 import Explore from './Explore'
 import BigCard from './BigCard'
+import PickUpGrid from './PickUpGrid'
+import OurRoom from './OurRoom'
 
 function HomeContainer() {
   return (
@@ -13,6 +15,8 @@ function HomeContainer() {
       <Hero />
       <Explore />
       <BigCard />
+      <PickUpGrid />
+      <OurRoom />
     </div>
   )
 }

@@ -1,4 +1,5 @@
 import React from 'react'
+import CarouselCard from './CarouselCard'
 
 function BigCard() {
   return (
@@ -14,7 +15,12 @@ function BigCard() {
           textAlign: 'center',
           margin: 'auto',
         }}
-      ></div>
+      >
+        <div>
+          <CarouselCard />
+        </div>
+      </div>
+
       <div
         style={{
           backgroundImage: "url('./zigjag.png')",

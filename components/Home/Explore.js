@@ -3,6 +3,23 @@ import React from 'react'
 function Explore() {
   return (
     <div className="m-auto">
+      <div
+        style={{
+          backgroundImage: "url('./zigjag.png')",
+          content: '',
+
+          position: 'absolute',
+          bottom: '-20%',
+          transform: 'rotate(180deg)',
+          left: ' 0',
+          backgroundSize: 'cover',
+          backgroundRepeat: 'no-repeat',
+          height: '50px',
+          width: '100%',
+        }}
+      >
+        {' '}
+      </div>
       <h1 className="pt-[20px] text-center font-semibold tracking-[5px] text-[#CC8C18]">
         EXPLORE
       </h1>

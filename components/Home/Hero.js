@@ -53,23 +53,6 @@ function Hero() {
           </div>
         </div>
       </div>
-      <div
-        style={{
-          backgroundImage: "url('./zigjag.png')",
-          content: '',
-
-          position: 'absolute',
-          bottom: '-20%',
-          transform: 'rotate(180deg)',
-          left: ' 0',
-          backgroundSize: 'cover',
-          backgroundRepeat: 'no-repeat',
-          height: '50px',
-          width: '100%',
-        }}
-      >
-        {' '}
-      </div>
     </div>
   )
 }
