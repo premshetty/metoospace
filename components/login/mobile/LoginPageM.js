@@ -1,17 +1,7 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 
 function LoginPage() {
-  const [mobile, setmobile] = useState(false)
-
-  useEffect(() => {
-    if (window.innerWidth < 768) {
-      setmobile(true)
-    } else {
-      setmobile(false)
-    }
-  }, [])
-
-  const login = mobile ? (
+  return (
     <div
       style={{
         backgroundImage: "url('./login/mobilebg.png')",
@@ -58,10 +48,7 @@ function LoginPage() {
         />
       </div>
     </div>
-  ) : (
-    'login'
   )
-  return login
 }
 
 export default LoginPage
