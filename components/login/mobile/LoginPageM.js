@@ -8,6 +8,10 @@ function LoginPage() {
         height: '100vh',
         width: '100%',
         gap: '80px',
+
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundRepeat: 'no-repeat',
       }}
       className="flex  flex-col items-center justify-center"
     >

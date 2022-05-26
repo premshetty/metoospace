@@ -4,8 +4,13 @@ function LoginPageD() {
   return (
     <div className="flex">
       <div
-        className="h-[100vh] max-h-[100vh] w-[40%] pl-[50px]"
-        style={{ backgroundImage: 'url(./login/mobilebg.png)' }}
+        className="h-[100vh] max-h-[100vh] w-[40%] pl-[50px] pr-[50px]"
+        style={{
+          backgroundImage: 'url(./login/mobilebg.png)',
+          backgroundSize: 'cover',
+          backgroundPosition: 'center',
+          backgroundRepeat: 'no-repeat',
+        }}
       >
         <h2 className=" pt-[30px] font-sans text-[24px] font-bold leading-[40px] text-white">
           Metoospace
