@@ -51,7 +51,12 @@ function LoginPageD() {
             </p>
           </div>
           <div className="mt-[40px] flex flex-col gap-[30px]">
-            <div className="h-[48px] w-[454px]  rounded-md border-[1px] border-[#80808070]  p-2">
+            <div className="flex h-[48px] w-[454px]  rounded-md border-[1px] border-[#80808070]  p-2">
+              <img
+                src="./icons/mail.svg"
+                className="m-auto h-[24px] w-[24px]"
+              />
+
               <input
                 className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
                 type="email"
@@ -59,7 +64,12 @@ function LoginPageD() {
                 required
               />
             </div>
-            <div className="h-[48px] w-[454px] rounded-md border-[1px] border-[#80808070]  p-2">
+            <div className="flex h-[48px] w-[454px] rounded-md border-[1px] border-[#80808070]  p-2">
+              <img
+                src="./icons/lock.svg"
+                className="m-auto h-[24px] w-[24px]"
+              />
+
               <input
                 className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
                 type="password"
