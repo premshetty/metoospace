@@ -1,16 +1,16 @@
 import React from 'react'
 import Footer from './Footer'
 import Navbar from './Navbar'
-import TermofUse from './TermofUse'
+import PrivacyPolicy from './PrivacyPolicy'
 
-function Terms() {
+function Privacy() {
   return (
-    <div>
+    <>
       <Navbar />
-      <TermofUse />
+      <PrivacyPolicy />
       <Footer />
-    </div>
+    </>
   )
 }
 
-export default Terms
+export default Privacy

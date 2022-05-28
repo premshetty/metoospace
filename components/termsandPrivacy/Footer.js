@@ -2,7 +2,7 @@ import React from 'react'
 
 function Footer() {
   return (
-    <div className="flex w-full  flex-col">
+    <div className="mt-[60px] flex  w-full flex-col">
       <div className=" grid grid-cols-4 bg-[#E8F0FE] px-7 py-5">
         <div className="flex flex-col gap-5 pl-7">
           <p className="text-[20px] font-bold">Help </p>

@@ -75,7 +75,7 @@ function Navbar() {
           Blog{' '}
         </a>
       </div>
-      <div className="h-[250px] w-full bg-[#F4AB3E]"></div>
+      <div className="h-[250px] w-[100vw] bg-[#F4AB3E] md:w-full"></div>
     </div>
   )
 }
