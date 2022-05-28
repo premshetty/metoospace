@@ -4,8 +4,4 @@ module.exports = {
   images: {
     formats: ['image/avif', 'image/webp'],
   },
-  plugins: [
-    // ...
-    require('tailwind-scrollbar'),
-  ],
 }
