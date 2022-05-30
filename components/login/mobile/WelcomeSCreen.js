@@ -25,13 +25,12 @@ function WelcomeSCreen(props) {
       </div>
       <div className="flex flex-col">
         <button
-          onClick={props.gotoLoginScreen}
           className="h-[48px] w-[146px] rounded-[4px]"
           style={{
             background: 'linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%)',
           }}
         >
-          SIGN UP NOW
+          <a href="/register"> SIGN UP NOW</a>
         </button>
         <button
           onClick={props.gotoLoginScreen}

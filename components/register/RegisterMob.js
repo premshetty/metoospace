@@ -1,17 +1,29 @@
 import React from 'react'
 
-function LoginScreen() {
+function RegisterMob() {
   return (
     <div className="m-auto flex h-[100vh] w-[90%] flex-col items-center justify-center gap-[50px]">
       <div className="flex flex-col">
         <h1 className=" text-center font-sans text-[40px] font-bold leading-[40px] text-black">
-          Welcome Back
+          Welcome
         </h1>
         <p className=" text-center font-sans text-[14px] font-light text-black">
-          Sign in to continue
+          Register to continue
         </p>
       </div>
       <div className=" flex flex-col gap-[30px]">
+        <div className="flex h-[48px] w-[327px] rounded-md border-[1px] border-[#80808070]  p-2">
+          <img
+            src="./icons/userinput.svg"
+            className="m-auto h-[24px] w-[24px]"
+          />
+          <input
+            className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+            type="text"
+            placeholder="Enter Your Full Name"
+            required
+          />
+        </div>
         <div className="flex h-[48px] w-[327px] rounded-md border-[1px] border-[#80808070]  p-2">
           <img src="./icons/mail.svg" className="m-auto h-[24px] w-[24px]" />
           <input
@@ -31,12 +43,7 @@ function LoginScreen() {
             required
           />
         </div>
-        <div>
-          <input type="checkbox" className="ml-2" />
-          <label className="ml-2 font-sans text-[16px] font-light text-black">
-            Keep me signed in
-          </label>
-        </div>
+
         <p className="w-[327px] font-sans text-[14px] font-medium text-black ">
           By signing in, you agree with our{' '}
           <span className="text-[#185AAA]">Terms & Conditions</span>
@@ -50,21 +57,15 @@ function LoginScreen() {
                 'linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%)',
             }}
           >
-            SIGN IN NOW
+            CONTINUE
           </button>
           <div className="py-4">
             <div className="w-full border-t border-gray-300"></div>
           </div>
-          <a
-            href="#"
-            className="font-sans text-[14px] font-medium text-[#185AAA]"
-          >
-            Forgot password?
-          </a>
         </div>
         <div className="flex flex-col items-center gap-[10px]">
           <p className="font-sans text-[14px] font-light text-black">
-            or continue with
+            Create account with
           </p>
           <div className="flex items-center gap-[30px]">
             <img src="./login/fb.svg" className="h-[40px] w-[40px]" />
@@ -73,10 +74,10 @@ function LoginScreen() {
           </div>
         </div>
         <div className="m-auto">
-          <a href="/register" className="text-center">
+          <a href="/login" className="text-center">
             {' '}
-            do you have a account ?{' '}
-            <span className="text-[#185AAA]">SIGN UP</span>
+            Already have a account ?{' '}
+            <span className="text-[#185AAA]">SIGN IN</span>
           </a>
         </div>
       </div>
@@ -84,4 +85,4 @@ function LoginScreen() {
   )
 }
 
-export default LoginScreen
+export default RegisterMob

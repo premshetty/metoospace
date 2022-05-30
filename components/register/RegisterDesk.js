@@ -1,6 +1,6 @@
 import React from 'react'
 
-function LoginPageD() {
+function RegisterDesk() {
   return (
     <div className="flex">
       <div
@@ -30,7 +30,7 @@ function LoginPageD() {
       <div className="h-[100vh] w-[60%] pr-[50px]">
         <div className="float-right  mt-7 flex items-center justify-center gap-3">
           <p className=" font-sans text-[16px] text-black">
-            Don’t have an account?
+            Already have an account?
           </p>
           <button
             className="h-[48px] w-[108px] rounded-[4px]"
@@ -38,19 +38,32 @@ function LoginPageD() {
               border: '1px solid #CECFD1',
             }}
           >
-            <a href="/register"> SIGN UP</a>
+            <a href="/login"> SIGN IN </a>
           </button>
         </div>
         <div className="m-auto mt-[120px] flex w-[80%] flex-col items-start justify-center">
           <div className="flex flex-col">
             <h1 className=" font-sans text-[40px] font-bold leading-[40px] text-black">
-              Welcome Back
+              Welcome
             </h1>
             <p className="font-sans text-[14px] font-light text-black">
-              Sign in to continue
+              Register to continue
             </p>
           </div>
           <div className="mt-[40px] flex flex-col gap-[30px]">
+            <div className="flex h-[48px] w-[454px]  rounded-md border-[1px] border-[#80808070]  p-2">
+              <img
+                src="./icons/userinput.svg"
+                className="m-auto h-[24px] w-[24px]"
+              />
+
+              <input
+                className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+                type="text"
+                placeholder="Enter Your Full Name"
+                required
+              />
+            </div>
             <div className="flex h-[48px] w-[454px]  rounded-md border-[1px] border-[#80808070]  p-2">
               <img
                 src="./icons/mail.svg"
@@ -77,12 +90,7 @@ function LoginPageD() {
                 required
               />
             </div>
-            <div>
-              <input type="checkbox" className="ml-2" />
-              <label className="ml-2 font-sans text-[16px] font-light text-black">
-                Keep me signed in
-              </label>
-            </div>
+
             <p className="w-[454px] font-sans text-[14px] font-medium text-black ">
               By signing in, you agree with our{' '}
               <span className="text-[#185AAA]">Terms & Conditions</span>
@@ -97,18 +105,12 @@ function LoginPageD() {
                     'linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%)',
                 }}
               >
-                SIGN IN NOW
+                CONTINUE
               </button>
-              <a
-                href="#"
-                className="font-sans text-[14px] font-medium text-[#185AAA]"
-              >
-                Forgot password?
-              </a>
             </div>
             <div className="flex items-center gap-[30px]">
               <p className="font-sans text-[14px] font-light text-black">
-                or continue with
+                create account with
               </p>
               <div className="flex items-center gap-[10px]">
                 <img src="./login/fb.svg" className="h-[40px] w-[40px]" />
@@ -123,4 +125,4 @@ function LoginPageD() {
   )
 }
 
-export default LoginPageD
+export default RegisterDesk
