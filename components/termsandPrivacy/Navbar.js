@@ -2,11 +2,11 @@ import React from 'react'
 
 function Navbar() {
   return (
-    <div className="flex flex-col gap-[15px] py-5">
+    <div className="flex  flex-col gap-[15px] py-5">
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-[80px] pl-5">
           <h1 className="font-[24px] pl-3 font-bold"> Metoospace</h1>
-          <div className="flex h-[48px] w-[454px] rounded-md border-[1px] border-[#CECFD1]  p-2">
+          <div className="hidden h-[48px] w-[454px] rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
             <img
               src="./icons/search.svg"
               className="m-auto h-[24px] w-[24px]"
@@ -18,7 +18,7 @@ function Navbar() {
             />
           </div>
         </div>
-        <div className="flex gap-7 pr-5">
+        <div className="flex gap-7 md:pr-5">
           <a href="#" className="text-[16px] font-medium ">
             Support
           </a>
@@ -58,6 +58,14 @@ function Navbar() {
           </a>
         </div>
       </div>
+      <div className="m-auto flex h-[48px] max-w-[95%] rounded-md border-[1px] border-[#CECFD1] p-2  md:hidden">
+        <img src="./icons/search.svg" className="m-auto h-[24px] w-[24px]" />
+        <input
+          className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+          type="text"
+          placeholder="Where are you going ?"
+        />
+      </div>
       <div className="flex gap-7 pl-7">
         <a className="text-[16px] font-medium" href="#">
           Destination{' '}
@@ -75,7 +83,7 @@ function Navbar() {
           Blog{' '}
         </a>
       </div>
-      <div className="h-[250px] w-[100vw] bg-[#F4AB3E] md:w-full"></div>
+      <div className="h-[60px]  w-[100vw] bg-[#F4AB3E] md:h-[250px] md:w-full"></div>
     </div>
   )
 }

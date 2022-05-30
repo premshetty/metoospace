@@ -3,8 +3,8 @@ import React from 'react'
 function Footer() {
   return (
     <div className="mt-[60px] flex  w-full flex-col">
-      <div className=" grid grid-cols-4 bg-[#E8F0FE] px-7 py-5">
-        <div className="flex flex-col gap-5 pl-7">
+      <div className=" grid  grid-cols-2 bg-[#E8F0FE]  px-7 py-5 lg:grid-cols-4">
+        <div className="flex flex-col gap-5 lg:pl-7">
           <p className="text-[20px] font-bold">Help </p>
           <div className="flex flex-col">
             <a href="#" className="text-[16px]">
@@ -67,7 +67,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="flex h-[64px] w-full items-center justify-between bg-[#292D32] pl-10">
+      <div className="flex h-auto w-full items-center justify-between bg-[#292D32] py-5 pl-10 md:h-[64px] md:py-0">
         <p className="text-white">
           © 2022 Metoospace.com is a Cheffy Group company. All rights reserved.
         </p>
