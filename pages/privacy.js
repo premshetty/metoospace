@@ -4,12 +4,12 @@ import Privacy from '../components/termsandPrivacy/Privacy'
 
 function termsofuse() {
   return (
-    <div>
+    <>
       <Head>
         <title>Privacy policy</title>
       </Head>
       <Privacy />
-    </div>
+    </>
   )
 }
 

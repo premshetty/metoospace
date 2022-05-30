@@ -3,18 +3,14 @@ import React from 'react'
 function TermofUse() {
   return (
     <div
-      className=" relative bg-white"
+      className=" m-auto  bg-white md:relative md:-mt-[200px] md:h-[821px] md:w-[960px] "
       style={{
-        margin: 'auto',
-        width: '960px',
-        height: '821px',
-        marginTop: '-200px',
         boxShadow:
           ' 0px 6px 30px 5px rgba(0, 0, 0, 0.04), 0px 16px 24px 2px rgba(0, 0, 0, 0.04), 0px 8px 10px -5px rgba(0, 0, 0, 0.04)',
         borderRadius: '8px',
       }}
     >
-      <div className="p-[56px]">
+      <div className="p-[20px] md:p-[56px]">
         <div className="flex items-center justify-between">
           <h1 className="text-center text-[32px] font-bold">Terms of Use</h1>
           <img
@@ -23,7 +19,7 @@ function TermofUse() {
             alt="share"
           />
         </div>
-        <div className=" mt-[31px] flex h-[600px] flex-col gap-[40px] overflow-y-auto">
+        <div className=" mt-[31px] flex flex-col gap-[40px] overflow-y-auto md:h-[600px]">
           <div className="flex flex-col gap-[16px] pr-[24px]">
             <h3 className="text-[24px] font-bold">
               Lorem ipsum dolor sit amet
