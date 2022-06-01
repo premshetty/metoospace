@@ -1,24 +1,23 @@
 import React from 'react'
-
 function Search() {
   return (
     <div className="flex h-[88px] justify-around">
-      <div className="hidden h-[48px] w-[454px] rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
+      <div className=" h-[48px] w-[454px] items-center justify-center rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
         <img src="./icons/search.svg" className="m-auto h-[24px] w-[24px]" />
         <input
-          className="ml-2 h-[18px] w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+          className="ml-2 h-[18px] w-full flex-shrink items-center bg-transparent text-black placeholder-gray-500 outline-none md:inline-flex"
           type="text"
           placeholder="Where are you going ?"
         />
       </div>
-      <div className="hidden h-[48px] w-[164px] rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
+      <div className=" h-[48px] w-[164px] items-center justify-center  rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
         <img src="./icons/flight.svg" className="m-auto h-[24px] w-[24px]" />
         <div>
-          <p className="ml-2 text-[14px]"> checkin</p>
+          <p className="ml-2 text-[14px] text-gray-400"> checkin</p>
 
           <input
             placeholder="Date"
-            className="ml-2 h-[18px] w-[120px] flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+            className="ml-2 h-[18px] w-[120px] flex-shrink items-center bg-transparent text-black placeholder-gray-500 outline-none md:inline-flex"
             type="text"
             onFocus={(e) => (e.target.type = 'date')}
             onBlur={(e) => (e.target.type = 'text')}
@@ -26,13 +25,13 @@ function Search() {
           ></input>
         </div>
       </div>
-      <div className="hidden h-[48px] w-[164px] rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
+      <div className=" h-[48px] w-[164px] items-center rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
         <img
           src="./icons/flight.svg"
           className="m-auto h-[24px] w-[24px] rotate-180"
         />
         <div>
-          <p className="ml-2 text-[14px]"> check out</p>
+          <p className="ml-2 text-[14px] text-gray-400"> check out</p>
 
           <input
             placeholder="Date"
@@ -44,13 +43,17 @@ function Search() {
           ></input>
         </div>
       </div>
-      <div className="hidden h-[48px] w-[200px] rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
+      <div className="hidden h-[48px] w-[200px] items-center rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
         <img src="./icons/group.svg" className="m-auto h-[24px] w-[24px]" />
-        <input
-          className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
-          type="text"
-          placeholder="Where are you going ?"
-        />
+        <div>
+          <p className="ml-2 text-[14px] text-gray-400"> Guests</p>
+
+          <input
+            className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-gray-500 outline-none md:inline-flex"
+            type="text"
+            placeholder="rooms"
+          />
+        </div>
       </div>
       <button
         className="h-[48px] w-[154px] rounded-[4px]"
