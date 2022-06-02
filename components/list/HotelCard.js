@@ -2,7 +2,7 @@ import React from 'react'
 
 function HotelCard() {
   return (
-    <div className="flex h-[300px] w-[954px] rounded-[8px] border-[1px] border-[#CECFD1]">
+    <div className="flex h-[282px] w-[954px] rounded-[8px] border-[1px] border-[#CECFD1]">
       <div className="w-[302px]">
         <img
           src="./hotels/Main.png"
@@ -11,14 +11,14 @@ function HotelCard() {
         />
         <div className=" grid grid-cols-4">
           <img
-            className=" h-[70px] rounded-bl-[8px]"
+            className=" h-[50px] rounded-bl-[8px]"
             src="./hotels/small1.png"
             alt="hotel"
           />
-          <img className="h-[70px]" src="./hotels/small2.png" alt="hotel" />
-          <img className="h-[70px]" src="./hotels/small3.png" alt="hotel" />
+          <img className="h-[50px]" src="./hotels/small2.png" alt="hotel" />
+          <img className="h-[50px]" src="./hotels/small3.png" alt="hotel" />
           <div
-            className="flex h-[70px]  items-center justify-center"
+            className="flex h-[50px]  items-center justify-center"
             style={{
               backgroundImage: 'url("./hotels/seall.png")',
             }}
@@ -91,7 +91,7 @@ function HotelCard() {
               Experience ultimate relaxation with stunning views at our
               temperature controlled pools and exquisite options.
             </h3>
-            <p>
+            <p className="-mt-[3px]">
               <span className="font-bold"> 4.6/5</span> &nbsp; Wonderful (295
               reviews)
             </p>
@@ -106,7 +106,7 @@ function HotelCard() {
               <h2 className="text-[24px] font-bold text-[#292D32]">$151</h2>
             </div>
             <button
-              className="h-[48px] w-[146px] rounded-[4px]"
+              className="h-[48px] w-[156px] rounded-[4px]"
               style={{
                 background:
                   'linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%)',
