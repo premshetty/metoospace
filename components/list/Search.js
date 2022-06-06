@@ -1,8 +1,8 @@
 import React from 'react'
 function Search() {
   return (
-    <div className="flex h-[88px] justify-around">
-      <div className=" h-[48px] w-[454px] items-center justify-center rounded-md border-[1px] border-[#CECFD1] p-2  md:flex">
+    <div className="m-auto mb-[24px] grid w-[327px] grid-cols-2 gap-6 bg-[#F6F9FF] p-6 md:mb-0 md:flex md:h-[88px] md:w-auto md:justify-around  md:p-0">
+      <div className="col-span-2 flex h-[48px] w-[279px] items-center justify-center rounded-md border-[1px] border-[#CECFD1] p-2  md:w-[454px]">
         <img src="./icons/search.svg" className="m-auto h-[24px] w-[24px]" />
         <input
           className="ml-2 h-[18px] w-full flex-shrink items-center bg-transparent text-black placeholder-gray-500 outline-none md:inline-flex"
@@ -10,7 +10,7 @@ function Search() {
           placeholder="Where are you going ?"
         />
       </div>
-      <div className=" h-[48px] w-[164px] items-center justify-center  rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
+      <div className=" flex h-[48px] w-[131px]  items-center rounded-md border-[1px] border-[#CECFD1] px-2 md:w-[164px]">
         <img src="./icons/flight.svg" className="m-auto h-[24px] w-[24px]" />
         <div>
           <p className="ml-2 text-[14px] text-gray-400"> checkin</p>
@@ -25,7 +25,7 @@ function Search() {
           ></input>
         </div>
       </div>
-      <div className=" h-[48px] w-[164px] items-center rounded-md border-[1px] border-[#CECFD1] px-2 md:flex">
+      <div className=" flex h-[48px] w-[131px]  items-center rounded-md border-[1px] border-[#CECFD1] px-2 md:w-[164px]">
         <img
           src="./icons/flight.svg"
           className="m-auto h-[24px] w-[24px] rotate-180"
@@ -56,7 +56,7 @@ function Search() {
         </div>
       </div>
       <button
-        className="h-[48px] w-[154px] rounded-[4px]"
+        className="col-span-2 h-[48px] w-[154px] rounded-[4px]"
         style={{
           background: 'linear-gradient(282.25deg, #F4AB3E 0%, #F7C170 100%)',
         }}
