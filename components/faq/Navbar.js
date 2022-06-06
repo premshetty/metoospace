@@ -67,23 +67,32 @@ function Navbar() {
         />
       </div>
       <div className="flex gap-7 pl-7">
-        <button className="pb-3 text-[16px] font-medium" href="#">
-          Destination
-        </button>
-        <button className="pb-3 text-[16px] font-medium" href="#">
-          Tour
-        </button>
         <button
-          className="border-b-2 border-[#F4AB3E] pb-3 text-[16px] font-medium"
+          className=" border-b-2 border-[#F4AB3E] pb-3 text-[16px] font-medium"
           href="#"
         >
-          Rooms
+          Hotel{' '}
         </button>
         <button className="pb-3 text-[16px] font-medium" href="#">
-          Hotels
+          Hostels{' '}
+        </button>
+        <button className=" pb-3 text-[16px] font-medium" href="#">
+          House{' '}
         </button>
         <button className="pb-3 text-[16px] font-medium" href="#">
-          Blog
+          Office{' '}
+        </button>
+        <button className="pb-3 text-[16px] font-medium" href="#">
+          Garage{' '}
+        </button>
+        <button className="pb-3 text-[16px] font-medium" href="#">
+          Rooms{' '}
+        </button>
+        <button className="pb-3 text-[16px] font-medium" href="#">
+          Kitchen{' '}
+        </button>
+        <button className="pb-3 text-[16px] font-medium" href="#">
+          Storage{' '}
         </button>
       </div>
     </div>
