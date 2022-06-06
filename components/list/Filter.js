@@ -19,7 +19,7 @@ function Filter() {
     )
   }
   return (
-    <div className="flex w-[302px] flex-col gap-[20px]">
+    <div className="hidden w-[302px] flex-col gap-[20px] md:flex">
       <div className="shadow-md ">
         <iframe
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100355.76559087214!2d-77.36345132258934!3d38.889520539985604!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89b64ba9535c7be9%3A0xb7e15199f5547c75!2sCheffy!5e0!3m2!1sen!2sin!4v1654103989622!5m2!1sen!2sin"
