@@ -3,10 +3,10 @@ import React from 'react'
 function HotelCard() {
   return (
     <div className="flex h-[224px] w-[327px] rounded-[8px] border-[1px] border-[#CECFD1] md:h-[282px] md:w-[954px]">
-      <div className="w-[112px] md:w-[302px]">
+      <div className="w-[112px] md:w-[327px]">
         <img
           src="./hotels/Main.png"
-          className="h-full w-[112px!important] rounded-l-[8px] bg-cover md:h-[230px] md:w-full md:rounded-tl-[8px]"
+          className="h-full w-[112px] rounded-l-[8px] bg-cover md:h-[230px] md:w-[327px] md:rounded-tl-[8px]"
           alt="main"
         />
         <div className="hidden grid-cols-4 md:grid">
