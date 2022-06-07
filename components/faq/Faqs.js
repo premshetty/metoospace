@@ -12,7 +12,7 @@ function Faqs() {
       <div className="flex flex-col gap-11">
         <Navbar />
       </div>
-      <div className="ml-[43px] mt-[24px] flex gap-6">
+      <div className="  ml-[43px] mt-[24px] flex gap-6">
         <Sidepanel />
         <QuestionPanel />
         <Promotion />

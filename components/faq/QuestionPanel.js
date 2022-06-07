@@ -4,14 +4,16 @@ import Accordian from './Accordian'
 function QuestionPanel() {
   return (
     <div>
-      <h1 className="mb-[16px] text-[18px] font-bold">
+      <h1 id="most" className="mb-[16px] text-[18px] font-bold">
         Most frequently question
       </h1>
       <div className="flex flex-col gap-5">
         <Accordian />
         <Accordian />
       </div>
-      <h1 className="mb-[16px] mt-[30px] text-[18px] font-bold">Booking</h1>
+      <h1 id="booking" className="mb-[16px] mt-[30px] text-[18px] font-bold">
+        Booking
+      </h1>
       <div className="flex flex-col gap-5">
         <Accordian />
         <Accordian />
@@ -19,7 +21,10 @@ function QuestionPanel() {
         <Accordian />
         <Accordian />
       </div>
-      <h1 className="mb-[16px] mt-[30px] text-[18px] font-bold">
+      <h1
+        id="cancelation"
+        className="mb-[16px] mt-[30px] text-[18px] font-bold"
+      >
         Cancellation
       </h1>
       <div className="flex flex-col gap-5">
@@ -27,7 +32,7 @@ function QuestionPanel() {
         <Accordian />
         <Accordian />
       </div>
-      <h1 className="mb-[16px] mt-[30px] text-[18px] font-bold">
+      <h1 id="change" className="mb-[16px] mt-[30px] text-[18px] font-bold">
         Change Booking
       </h1>
       <div className="flex flex-col gap-5">
