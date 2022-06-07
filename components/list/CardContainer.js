@@ -26,7 +26,7 @@ function CardContainer() {
           </select>
         </div>
       </div>
-      <div className="mt-[16px] mb-[24px] flex">
+      <div className="mt-[16px] mb-[24px] flex md:hidden">
         <div className=" flex h-[48px] w-[131px]  items-center rounded-l-md border-[1px] border-[#CECFD1] px-2 md:w-[164px]">
           <img src="./icons/sort.svg" className="m-auto h-[24px] w-[24px]" />
 
