@@ -1,5 +1,5 @@
 import React from 'react'
-import Bcontainer from '../components/Booking2/Bcontainer'
+import Bcontainer from '../components/Booking/Bcontainer'
 
 function form2() {
   return (
