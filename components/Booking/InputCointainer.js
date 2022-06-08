@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import InputArea from './../Booking/InputArea'
-import WhatyouNeed from './../Booking/WhatyouNeed'
+import InputArea from './InputArea'
+import WhatyouNeed from './WhatyouNeed'
 import {
   UserIcon,
   MailIcon,
