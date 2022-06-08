@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonComponent from '../Booking/ButtonComponent'
+import ButtonComponent from './ButtonComponent'
 
 function PriceCard2() {
   return (

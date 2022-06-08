@@ -1,5 +1,5 @@
 import React from 'react'
-import ButtonComponent from '../Booking/ButtonComponent'
+import ButtonComponent from './ButtonComponent'
 import BookingForm2 from './BookingForm2'
 import Navbar2 from './Navbar2'
 

@@ -2,6 +2,8 @@ import type { NextPage } from 'next'
 import Head from 'next/head'
 import HomeContainer from './../components/Home/HomeContainer';
 
+import Bcontainer from '../components/Booking/Bcontainer';
+
 const Home: NextPage = () => {
   return (
     <div className="flex  flex-col   py-2">
@@ -10,7 +12,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
         <meta name="description" content="meeto space booking page" />
       </Head>
-      <HomeContainer />
+      <Bcontainer />
     </div>
   )
 }
