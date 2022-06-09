@@ -1,38 +1,41 @@
-import React, { useState } from 'react'
+import React from 'react'
 
-function Links() {
+function Links({ ...props }) {
   return (
     <div className=" group mt-[23px] flex h-20 gap-9 border-[1px]  border-[#CECFD1] px-[43px] py-[23px]  ">
-      <a
-        href="#overview"
+      <button
+        onClick={props.Overview}
         className="flex h-full  flex-col items-center justify-center border-[#F4AB3E] target:border-b-[1px] active:border-b-[1px] "
       >
         Overview
-      </a>
-      <a
+      </button>
+
+      <button
+        onClick={props.rooms}
         href="#"
         className="flex h-full  flex-col items-center justify-center border-[#F4AB3E] target:border-b-[1px] active:border-b-[1px]"
       >
-        Overview
-      </a>
-      <a
+        Rooms
+      </button>
+      <button
+        onClick={props.facilities}
         href="#"
         className="flex h-full  flex-col items-center justify-center border-[#F4AB3E] target:border-b-[1px] active:border-b-[1px]"
       >
-        Overview
-      </a>
-      <a
+        Facilities
+      </button>
+      <button
         href="#"
         className="flex h-full  flex-col items-center justify-center border-[#F4AB3E] target:border-b-[1px] active:border-b-[1px]"
       >
-        Overview
-      </a>
-      <a
+        Location
+      </button>
+      <button
         href="#"
         className="flex h-full  flex-col items-center justify-center border-[#F4AB3E] target:border-b-[1px] active:border-b-[1px]"
       >
-        Overview
-      </a>
+        Reviews
+      </button>
     </div>
   )
 }
