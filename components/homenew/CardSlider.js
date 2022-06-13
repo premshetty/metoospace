@@ -1,4 +1,5 @@
 import React from 'react'
+import EScard from './EScard'
 
 function CardSlider() {
   return (
@@ -6,6 +7,36 @@ function CardSlider() {
       <div className="">
         <h1 className="text-[24px] font-[500]">EXCLUSIVE SPACES</h1>
         <div className="mt-1 h-[6px] w-[10%] bg-[#7161EF]"></div>
+      </div>
+      <div className="flex gap-4">
+        <EScard
+          img="./homepage/esp1.png"
+          hotelname="HOTEL HYAT"
+          price="$300-$1000"
+          category="Hotel"
+          length="sq.ft 2456"
+        />
+        <EScard
+          img="./homepage/esp2.png"
+          hotelname="HOTEL HYAT"
+          price="$300-$1000"
+          category="Hotel"
+          length="sq.ft 2456"
+        />
+        <EScard
+          img="./homepage/esp3.png"
+          hotelname="HOTEL HYAT"
+          price="$300-$1000"
+          category="Hotel"
+          length="sq.ft 2456"
+        />
+        <EScard
+          img="./homepage/esp4.png"
+          hotelname="HOTEL HYAT"
+          price="$300-$1000"
+          category="Hotel"
+          length="sq.ft 2456"
+        />
       </div>
     </div>
   )
