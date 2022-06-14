@@ -15,6 +15,9 @@ function BlogSection() {
         />
         <BlogCard image="./homepage/blog2.png" heading="Spaces To Wishlist " />
       </div>
+      <button className="m-auto mt-20 flex h-11 w-[126px]  items-center justify-center rounded-[8px] bg-[#FC60A8] py-1 pl-[12px] pr-[10px] text-center text-[12px] font-[500] text-white">
+        view more
+      </button>
     </div>
   )
 }

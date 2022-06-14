@@ -18,6 +18,7 @@ function SearchBlock() {
             <img
               src="./icons/search.svg"
               className=" h-[24px] w-[24px] opacity-70"
+              alt="search"
             />
             <input
               className="ml-2  w-full flex-shrink items-center bg-transparent placeholder-[#C5C0C0] outline-none"

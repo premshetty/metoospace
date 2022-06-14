@@ -38,6 +38,10 @@ function CardSlider() {
           length="sq.ft 2456"
         />
       </div>
+      <div className="mt-10  flex justify-end gap-5">
+        <img src="./icons/circleLeft.svg" className="h-6 w-6" alt="left" />
+        <img src="./icons/circleRight.svg" className="h-6 w-6" alt="Right" />
+      </div>
     </div>
   )
 }
