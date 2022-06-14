@@ -6,6 +6,9 @@ import Featured from './Featured'
 import PostProperty from './PostProperty'
 import Testimonial from './Testimonial'
 import CardSlider from './CardSlider'
+import BlogSection from './BlogSection'
+import Cta from './Cta'
+import Footer from './Footer'
 
 function NewHome() {
   return (
@@ -17,6 +20,9 @@ function NewHome() {
       <PostProperty />
       <Testimonial />
       <CardSlider />
+      <BlogSection />
+      <Cta />
+      <Footer />
     </div>
   )
 }
